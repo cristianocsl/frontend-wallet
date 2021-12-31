@@ -18,5 +18,19 @@
         "react"
     ],
     "rules": {
+        "indent": ["error", 2],
+        "linebreak-style": 0,
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "class-methods-use-this": ["off"],
+        "no-magic-numbers": [
+          "error",
+          {
+            "ignore": [0, 1, 2, 100],
+            "ignoreArrayIndexes": true,
+            "enforceConst": true,
+            "detectObjects": false
+          }
+        ]
     }
 }
